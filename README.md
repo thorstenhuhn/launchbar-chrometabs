@@ -14,7 +14,7 @@ $ make
 $ make install
 ```
 
-The last step copies the extension files to LaunchBar's default action location `~/Library/Application Support/LaunchBar/Actions`. Alternatively you can doubleclick on the `ChromeTabs.lbaction` folder in _Finder_.
+The last step copies the extension files to LaunchBar's default actions folder location `~/Library/Application Support/LaunchBar/Actions`. Alternatively you can doubleclick on the `ChromeTabs.lbaction` folder in _Finder_.
 
 ## Usage
 
@@ -26,9 +26,9 @@ It is also possible to get there using LaunchBar's navigation feature starting w
 
 ## Limitations
 
-Only _normal_ windows are investigated, incognito windows are intentionally skipped.
+Only _normal_ windows are investigated, _incognito_ windows are intentionally skipped.
 
-All tabs are displayed using the default _Google Chrome_ icon. There might be different ways to get a tabs favicon but they are currently considered as dirty hacks:
+All tabs are displayed using the default _Google Chrome_ icon. There might be different ways to get a tab's favicon but they are currently considered as dirty hacks:
 
 * Chrome's favicon cache `chrome://favicon/` seems to keep only small versions of icons (16x16) and I don't know howto access the cache from LaunchBar. Accessing it from within a chrome extension is discussed at [Stackoverflow](http://stackoverflow.com/q/10665321/934239) and said to be undocumented and unreliable.
 * Chrome's internal database (located in `~/Library/Application Support/Google/Chrome/Default/Favicons` with Chrome Version 47) is locked and has to be copied to gain access. Location and structure might change and exporting the binary data to disk might become a performance issue.
