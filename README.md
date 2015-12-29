@@ -22,8 +22,7 @@ Depending on your system and installed apps and action it should be enough to ty
 
 It is also possible to get there using LaunchBar's navigation feature starting with the associated _Google Chrome_ application and pressing the right arrow key.
 
-![Screenshot App Navigation](http://raw.github.com/thorstenhuhn/launchbar-chrometabs/master/img/screenshot02.png)
-![Screenshot Action Selection](http://raw.github.com/thorstenhuhn/launchbar-chrometabs/master/img/screenshot03.png)
+![Screenshot Action Selection](http://raw.github.com/thorstenhuhn/launchbar-chrometabs/master/img/screenshot02.png)
 
 ## Limitations
 
